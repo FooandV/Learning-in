@@ -12,3 +12,17 @@ Página 2Página 1/pagina1n/favicon.icon/pagina2n/favicon.icon/pagina2
 /favicon.ico
 /pagina1
 /favicon.ico
+/pagina2
+/favicon.ico
+/pagina2
+/favicon.ico
+/pagina2
+/favicon.ico
+/
+/favicon.ico
+/
+/favicon.ico
+/
+/favicon.ico
+/
+/favicon.ico

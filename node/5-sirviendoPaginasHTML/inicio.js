@@ -9,6 +9,5 @@ manejador['/pagina2'] = peticiones.pagina2;
 manejador['/favicon.ico'] = peticiones.favicon;
 
 
-servidor.iniciar(enrutador.enrutar, manejador); //esto es como una instancia de la funcion iniciar() 
-//del archivo servidor.js
+servidor.iniciar(enrutador.enrutar, manejador); //esto es como una instancia de la funcion iniciar() del archivo servidor.js
 

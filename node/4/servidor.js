@@ -17,15 +17,15 @@ function iniciar(enrutar, manejador) {
 
         console.log("Alguien se ha conectado")
 
-        var contenido = enrutar(manejador, ruta);
+        var contenido = enrutar(manejador, ruta, respuesta);
         /* createWriteStream: metodo que permite crear un flujo de datos en el archivo, se quiere abrir en modo append*/
         var registro = fs.createWriteStream('registro.txt', { 'flags': 'a' });
         registro.write(ruta + '\n');
         /* El metodo WriteHead envia una cabecera al nacegador web, hay que decirle al nacegador que tipo de documento
         voy a enviar */
-        res.writeHead(200, { "Content-Type": "text/html" }); /* 200 es el código que se le envia al navegador */
-        res.write(contenido)
-        res.end();
+        // res.writeHead(200, { "Content-Type": "text/html" }); /* 200 es el código que se le envia al navegador */
+        // res.write(contenido)
+        // res.end();
     }
     servidor.createServer(arrancaServidor).listen(8080);
 }
